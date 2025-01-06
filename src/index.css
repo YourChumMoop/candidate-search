@@ -90,6 +90,14 @@ tr {
   color: white;
 }
 
+tr img {
+  width: 100px;
+}
+
+tr button {
+  height: 50%;
+}
+
 tbody tr:nth-child(odd) {
   background-color: #333333;
 }
@@ -117,4 +125,33 @@ tbody tr:nth-child(odd) {
 .table {
   width: 80vw;
   table-layout: fixed;
+}
+
+
+
+.card {
+  background-color: #213547;
+  padding: 35px;
+  border-radius: 30px;
+  overflow-wrap: break-word;
+  inline-size: 400px;
+}
+
+.card button {
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.approve {
+  background-color: greenyellow;
+}
+.reject {
+  background-color: red;
+}
+.card img {
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
